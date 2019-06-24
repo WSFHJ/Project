@@ -1,0 +1,26 @@
+table{
+	border-collapse:collapse;
+	margin:0px;
+	font-family:Courier New;
+	font-weight:bold;
+	/* border-collapse:separate; */
+}
+table th {
+	width:100px; height:30px;
+	border:#000 solid 1px;
+	text-align:center; color:#FFFFFF;
+	background-color:#0076AD;	
+}
+table td {
+	border:#0076AD solid 1px;
+	text-align:left;
+	background-color:#FFFFFF;
+	height:30px; text-indent:0.3em;
+}
+
+table tr.fix td {
+	border:#666666 solid 1px;
+	text-align:left;
+	background-color:#E2E2E2;
+	width:150px; height:30px;	
+}
